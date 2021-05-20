@@ -11,5 +11,6 @@ int main(void)
     float topNeg = -5 - sqrt((b * b) - (4 * a * c));
     float neg = topNeg / (2 * a);
     float pos = topPos / (2 * a);
-    printf("x is %f, %f.\n", neg, pos);
+    printf("x is %f, %f.\n", neg, pos); // Not sure how it works with one solution
+    //Works with two solution with a:3 b:6 c:-8
 }
